@@ -33,11 +33,11 @@ This application provides a visual interface for a coffee machine, tracks the da
 | 2  | 2025-03-01 11:00 | 8        |
 
 ## Installation & Setup
-To Clone the repository:
+1. Clone the repository:
    ```bash
    git clone https://github.com/junodofbelhaven/coffee-machine-app.git
    ```
-
+2. Change the username and password in the DatabaseConnection.java according to your mySQL server properties.
 
 ## State Design Pattern Overview
 This application uses the **State Design Pattern** to manage different states of the coffee machine efficiently. The states include:
